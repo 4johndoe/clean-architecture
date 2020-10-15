@@ -1,8 +1,8 @@
 <?php
 
 
-use CleanPhp\Invoicer\Domain\Model\Invoice;
-use CleanPhp\Invoicer\Domain\Model\Order;
+use CleanPhp\Invoicer\Domain\Entity\Invoice;
+use CleanPhp\Invoicer\Domain\Entity\Order;
 use CleanPhp\Invoicer\Domain\Factory\InvoiceFactory;
 
 describe('InvoiceFactory', function () {
